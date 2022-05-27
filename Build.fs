@@ -89,7 +89,7 @@ Target.create "Azure" (fun _ ->
                     ]
                     add_registry_credentials [ registryCredentials ]
                     replicas 1 5
-                    ingress_target_port 80us
+                    ingress_target_port 8085us
                     ingress_transport ContainerApp.Auto
                 }
             ]

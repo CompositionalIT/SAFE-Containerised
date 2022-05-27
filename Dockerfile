@@ -4,5 +4,5 @@ FROM mcr.microsoft.com/dotnet/aspnet:5.0
 COPY ./deploy .
 
 # Start the API
-EXPOSE 80
+EXPOSE 8085
 CMD dotnet ./Server.dll
