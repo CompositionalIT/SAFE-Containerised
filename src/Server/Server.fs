@@ -50,7 +50,7 @@ let app =
     application {
         use_router webApp
         memory_cache
-        use_static "public" //use_static (Path.Combine(AppContext.BaseDirectory, "public"))
+        use_static "public"
         use_gzip
     }
 
